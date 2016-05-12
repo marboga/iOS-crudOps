@@ -10,4 +10,9 @@ import UIKit
 
 class AddItemViewController: UIViewController {
     
+    weak var cancelButtonDelegate: CancelButtonDelegate?
+    
+    @IBAction func cancelBarButtonPressed(sender: UIBarButtonItem) {
+        cancelButtonDelegate?.cancelButtonPressedFrom(self)
+    }
 }

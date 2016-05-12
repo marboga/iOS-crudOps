@@ -8,8 +8,9 @@
 
 import UIKit
 
-class MainListViewController: UITableViewController {
+class MainListViewController: UITableViewController, CancelButtonDelegate {
     var thingsToDo = ["finish reading Cracking the Coding Interview", "deploy an app to App Store", "spruce up Sprog logo", "re-deploy Neighborhood", "build a portfolio site", "go for a run", "eat more kale", "swim in the lake"]
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -29,5 +30,19 @@ class MainListViewController: UITableViewController {
     override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return thingsToDo.count
     }
+    
+    func cancelButtonPressedFrom(controller: UIViewController) {
+        dismissViewControllerAnimated(true, completion: nil)
+    }
+    
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        if segue.identifier == "AddNewItem" {
+            let navigationController = segue.destinationViewController as! UINavigationController
+            let controller = navigationController.topViewController as! AddItemViewController
+            controller.cancelButtonDelegate = self
+        }
+    }
+    
+    
 }
 

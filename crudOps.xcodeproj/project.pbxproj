@@ -15,6 +15,7 @@
 		A61E98911CE4CACC00B5B7A5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A61E988F1CE4CACC00B5B7A5 /* LaunchScreen.storyboard */; };
 		A61E98991CE4D15E00B5B7A5 /* AddItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A61E98981CE4D15E00B5B7A5 /* AddItemViewController.swift */; };
 		A61E989B1CE4D31100B5B7A5 /* CancelButtonDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A61E989A1CE4D31100B5B7A5 /* CancelButtonDelegate.swift */; };
+		A61E98BE1CE51BEB00B5B7A5 /* customDayCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A61E98BD1CE51BEB00B5B7A5 /* customDayCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		A61E98921CE4CACC00B5B7A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A61E98981CE4D15E00B5B7A5 /* AddItemViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddItemViewController.swift; sourceTree = "<group>"; };
 		A61E989A1CE4D31100B5B7A5 /* CancelButtonDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CancelButtonDelegate.swift; sourceTree = "<group>"; };
+		A61E98BD1CE51BEB00B5B7A5 /* customDayCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = customDayCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +67,7 @@
 				A61E98871CE4CACC00B5B7A5 /* Main.storyboard */,
 				A61E989A1CE4D31100B5B7A5 /* CancelButtonDelegate.swift */,
 				A61E98981CE4D15E00B5B7A5 /* AddItemViewController.swift */,
+				A61E98BD1CE51BEB00B5B7A5 /* customDayCell.swift */,
 				A61E988D1CE4CACC00B5B7A5 /* Assets.xcassets */,
 				A61E988F1CE4CACC00B5B7A5 /* LaunchScreen.storyboard */,
 				A61E98921CE4CACC00B5B7A5 /* Info.plist */,
@@ -147,6 +150,7 @@
 				A61E988C1CE4CACC00B5B7A5 /* crudOps.xcdatamodeld in Sources */,
 				A61E98991CE4D15E00B5B7A5 /* AddItemViewController.swift in Sources */,
 				A61E98861CE4CACC00B5B7A5 /* MainListViewController.swift in Sources */,
+				A61E98BE1CE51BEB00B5B7A5 /* customDayCell.swift in Sources */,
 				A61E98841CE4CACC00B5B7A5 /* AppDelegate.swift in Sources */,
 				A61E989B1CE4D31100B5B7A5 /* CancelButtonDelegate.swift in Sources */,
 			);

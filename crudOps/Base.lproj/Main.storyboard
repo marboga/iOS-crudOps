@@ -32,7 +32,7 @@
                     <navigationItem key="navigationItem" title="To Do List" id="Q9n-O0-nhT">
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="lJ8-1R-CNc">
                             <connections>
-                                <segue destination="d7H-Pa-kKP" kind="show" id="gdd-rT-wRz"/>
+                                <segue destination="d7H-Pa-kKP" kind="presentation" identifier="AddNewItem" id="gdd-rT-wRz"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
@@ -68,14 +68,18 @@
                     </view>
                     <toolbarItems/>
                     <navigationItem key="navigationItem" id="Srr-cQ-GVX">
-                        <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="WIe-Yu-55U"/>
+                        <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="WIe-Yu-55U">
+                            <connections>
+                                <action selector="cancelBarButtonPressed:" destination="Ogq-XW-kum" id="99P-81-ois"/>
+                            </connections>
+                        </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" systemItem="save" id="HvR-kk-EOh"/>
                     </navigationItem>
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cKo-vL-UfA" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2580" y="425"/>
+            <point key="canvasLocation" x="2441" y="425"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="pXW-9u-ExL">
