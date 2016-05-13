@@ -8,28 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		A61E98841CE4CACC00B5B7A5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A61E98831CE4CACC00B5B7A5 /* AppDelegate.swift */; };
-		A61E98861CE4CACC00B5B7A5 /* MainListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A61E98851CE4CACC00B5B7A5 /* MainListViewController.swift */; };
 		A61E98891CE4CACC00B5B7A5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A61E98871CE4CACC00B5B7A5 /* Main.storyboard */; };
 		A61E988C1CE4CACC00B5B7A5 /* crudOps.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A61E988A1CE4CACC00B5B7A5 /* crudOps.xcdatamodeld */; };
 		A61E988E1CE4CACC00B5B7A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A61E988D1CE4CACC00B5B7A5 /* Assets.xcassets */; };
 		A61E98911CE4CACC00B5B7A5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A61E988F1CE4CACC00B5B7A5 /* LaunchScreen.storyboard */; };
-		A61E98991CE4D15E00B5B7A5 /* AddItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A61E98981CE4D15E00B5B7A5 /* AddItemViewController.swift */; };
-		A61E989B1CE4D31100B5B7A5 /* CancelButtonDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A61E989A1CE4D31100B5B7A5 /* CancelButtonDelegate.swift */; };
-		A61E98BE1CE51BEB00B5B7A5 /* customDayCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A61E98BD1CE51BEB00B5B7A5 /* customDayCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A61E98801CE4CACC00B5B7A5 /* crudOps.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = crudOps.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A61E98831CE4CACC00B5B7A5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A61E98851CE4CACC00B5B7A5 /* MainListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainListViewController.swift; sourceTree = "<group>"; };
 		A61E98881CE4CACC00B5B7A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A61E988B1CE4CACC00B5B7A5 /* crudOps.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = crudOps.xcdatamodel; sourceTree = "<group>"; };
 		A61E988D1CE4CACC00B5B7A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A61E98901CE4CACC00B5B7A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A61E98921CE4CACC00B5B7A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A61E98981CE4D15E00B5B7A5 /* AddItemViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddItemViewController.swift; sourceTree = "<group>"; };
-		A61E989A1CE4D31100B5B7A5 /* CancelButtonDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CancelButtonDelegate.swift; sourceTree = "<group>"; };
-		A61E98BD1CE51BEB00B5B7A5 /* customDayCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = customDayCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,11 +55,7 @@
 			isa = PBXGroup;
 			children = (
 				A61E98831CE4CACC00B5B7A5 /* AppDelegate.swift */,
-				A61E98851CE4CACC00B5B7A5 /* MainListViewController.swift */,
 				A61E98871CE4CACC00B5B7A5 /* Main.storyboard */,
-				A61E989A1CE4D31100B5B7A5 /* CancelButtonDelegate.swift */,
-				A61E98981CE4D15E00B5B7A5 /* AddItemViewController.swift */,
-				A61E98BD1CE51BEB00B5B7A5 /* customDayCell.swift */,
 				A61E988D1CE4CACC00B5B7A5 /* Assets.xcassets */,
 				A61E988F1CE4CACC00B5B7A5 /* LaunchScreen.storyboard */,
 				A61E98921CE4CACC00B5B7A5 /* Info.plist */,
@@ -148,11 +136,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A61E988C1CE4CACC00B5B7A5 /* crudOps.xcdatamodeld in Sources */,
-				A61E98991CE4D15E00B5B7A5 /* AddItemViewController.swift in Sources */,
-				A61E98861CE4CACC00B5B7A5 /* MainListViewController.swift in Sources */,
-				A61E98BE1CE51BEB00B5B7A5 /* customDayCell.swift in Sources */,
 				A61E98841CE4CACC00B5B7A5 /* AppDelegate.swift in Sources */,
-				A61E989B1CE4D31100B5B7A5 /* CancelButtonDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,6 +288,7 @@
 				A61E98971CE4CACC00B5B7A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
